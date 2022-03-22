@@ -20,10 +20,10 @@ const tabs = [{
 }]
 
 const buttons = [{
-  label: "Contact-drawer", 
+  label: "Contact-drawer",
   action: <BottomDrawer/>,
 },{
-  label: "Theme-changer", 
+  label: "Theme-changer",
   action: <ThemeChanger/>,
 }]
 
@@ -54,7 +54,7 @@ const Navigation = (props) => {
         </Navbar.Brand>
         <Navbar.Collapse className="justify-content-end">
           <a href="https://www.linkedin.com/in/brianruizy/">LinkedIn</a>
-          <a href="https://github.com/BrianRuizy/">GitHub</a>
+          <a href="https://github.com/raanaji/">GitHub</a>
           <Link to="/about">About</Link>
           <BottomDrawer/>
         </Navbar.Collapse>

@@ -1,16 +1,19 @@
 ---
 template: about
 name: about
-socials: 
-    - 'https://github.com/brianruizy'
+socials:
+    - 'https://github.com/raanaji'
     - 'https://linkedin.com/'
-tech: 
-    - Django
+tech:
+    - Wolfram Mathematica
     - Python
+    - R
+    - Matlab
+    - HTML/CSS/JS
 ---
 ## About me
 
-I'm a Software Developer, specializing in Python full stack development. I'm a data nerd, know cloud computing, enjoy front-end design, & proponent of open-source. 
+I'm a Financial Engineer with background in economics. I'm a data nerd, know cloud computing, enjoy front-end design, & proponent of open-source.
 
 ## Why I do this stuff?
 
