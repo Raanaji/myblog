@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /bumpit
-mockup: /assets/bumpit/bumpit.png
+mockup: 
 thumbnail: 'https://res.cloudinary.com/practicaldev/image/fetch/s--2AKSowW9--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://crunchingnumbersdotlive.files.wordpress.com/2018/08/monte_carlo_simulation.png'
 github: https://github.com/Raanaji/MATLAB-Projects-Autumn-Spring-2018-2019
 date: 2019-04
@@ -20,9 +20,13 @@ The main objective of the competition revolved around developing innovative solu
 After juggling several ideas we settled with the issue of road potholes. We found that potholes cost American drivers $6.4 billion dollars per year, that is in both repair and insurance cost's. Additionally, the average price to repair a pothole including labor is about $30 - $50 per pothole, while the damage that single pothole may cause are up to $300/year per vehicle ([2016](https://www.pothole.info/2016/05/so-many-potholes-so-much-cost/)). Thus the effort to aiding this issue can be indeed cost-effective.
 
 
-$$
-S(0)=\partial^2 V = \frac{\partial ^2 V}{\partial^2 Y}=\int^2 _1 f(x)\Delta x + \sum
-$$
+
+```latex
+\begin{gathered}
+x^2 = 3 + \int
+\end{gathered}
+```
+
 
 
 ## Our Proposal
