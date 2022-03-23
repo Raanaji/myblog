@@ -2,10 +2,10 @@
 template: BlogPost
 path: /bumpit
 mockup: /assets/bumpit/bumpit.png
-thumbnail: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80'
-github: https://github.com/BrianRuizy/2019-Microsoft-IoT-hackathon
-date: 2019-12
-name: Bump.IT
+thumbnail: 'https://res.cloudinary.com/practicaldev/image/fetch/s--2AKSowW9--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://crunchingnumbersdotlive.files.wordpress.com/2018/08/monte_carlo_simulation.png'
+github: https://github.com/Raanaji/MATLAB-Projects-Autumn-Spring-2018-2019
+date: 2019-04
+name: Finite Difference Method using Monte Carlo Simulations
 title: This app got us first place at a Microsoft Azure Hackathon.
 category: Microsoft Hackathon
 description: '1st place app idea would leverage latest of Azure and ML to support a $6.4 billion infrastructure issue.'
@@ -18,6 +18,12 @@ tags:
 The main objective of the competition revolved around developing innovative solutions for improving the infrastructure of cities. The [Smart Infrastructure Hackathon](https://www.eventbrite.com/e/smart-infrastructure-hackathon-tickets-76918610635#) was hosted at The Cannon, in partnership with Microsoft. Thankfully, we had a team of really bright cloud architects for guidance.
 
 After juggling several ideas we settled with the issue of road potholes. We found that potholes cost American drivers $6.4 billion dollars per year, that is in both repair and insurance cost's. Additionally, the average price to repair a pothole including labor is about $30 - $50 per pothole, while the damage that single pothole may cause are up to $300/year per vehicle ([2016](https://www.pothole.info/2016/05/so-many-potholes-so-much-cost/)). Thus the effort to aiding this issue can be indeed cost-effective.
+
+
+$$
+S(0)=\partial^2 V = \frac{\partial ^2 V}{\partial^2 Y}=\int^2 _1 f(x)\Delta x + \sum
+$$
+
 
 ## Our Proposal
 
@@ -37,25 +43,3 @@ Every modern smartphone is equipped with very accurate telemetry systems. For in
 
 ![accelerometer data](assets/bumpit/fig1.svg)
 <figcaption>Smartphone accelerometer data</figcaption>
-
-## Live Computer Vision
-
-This part was a little more difficult, but this was our second layer for prediction of potholes, implementation done with some guidance from the MS architects. We used Azure Logic Apps to import our road image frames to the cloud, and with OpenCV where able to register a model to start analyzing our content with the conveniently named Azure microservice [Computer Vision](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/).
-
-![dashcam](https://raw.githubusercontent.com/BrianRuizy/2019-Microsoft-IoT-hackathon/master/img/pothole-computervision.gif)
-
-## Geocoding / Mapping
-
-Finally we needed to actually plot our GPS data so the city could take action. Our collected data included latitude, longitude, altitude and location accuracy. Location accuracy is important to pinpoint multiple occurrences of the same pothole from different users.
-
-![geo](https://raw.githubusercontent.com/BrianRuizy/2019-Microsoft-IoT-hackathon/master/img/geocoding.png)
-
-## The Final Result
-
-Having won the competition 🥇, after our minimum-viable-product, granted us credits to Microsoft Azure services, and even seats to the Cannon co-working space. Which we could use to continue development of the application.
-
-![20191214_151801_2](https://user-images.githubusercontent.com/23439187/114973417-0ee94500-9e46-11eb-94d7-55f095da4b46.jpg)
-<figcaption>Our project board</figcaption>
-
-![IMG_20191214_151949](https://user-images.githubusercontent.com/23439187/114971928-05aaa900-9e43-11eb-83ce-326283aef44b.jpg)
-<figcaption>The BumpIt team. Luis, ME, Jordan, Kaleab, MS guy, Moises and Eashrak.</figcaption>
