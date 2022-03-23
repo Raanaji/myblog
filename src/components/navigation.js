@@ -46,14 +46,14 @@ const Navigation = (props) => {
         <Navbar.Brand href="/">
           <img
             alt="BR LOGO"
-            src="/favicons/apple-touch-icon.png"
+            src="/favicons/favicon-32x32.png"
             width="30"
             height="30"
             className="d-inline-block align-top mr-2"
           />{ data.site.siteMetadata.home.name }
         </Navbar.Brand>
         <Navbar.Collapse className="justify-content-end">
-          <a href="https://www.linkedin.com/in/brianruizy/">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/yosemyty/">LinkedIn</a>
           <a href="https://github.com/raanaji/">GitHub</a>
           <Link to="/about">About</Link>
           <BottomDrawer/>

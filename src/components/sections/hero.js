@@ -1,7 +1,7 @@
 import React from "react"
 import { StaticQuery, graphql, Link } from "gatsby"
 
-import Resume from "../../../static/Brian-Ruiz-Resume.pdf"
+import Resume from "../../../static/Tanishq-Chauhan_Resume.pdf"
 
 import Container from 'react-bootstrap/Container'
 import Button from 'react-bootstrap/Button'
