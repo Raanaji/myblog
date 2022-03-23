@@ -535,4 +535,4 @@ General, Sharpe and Fitness scores outside the strategy sample. Count and count 
 
 
 
-> **Note**: The above discussion is meant to give in a simple idea of how important is programming for executing the theoretical matter taught to students. This does not mean the reader will leave the page having a clear idea of what goes on actually in a quant workshop, but the read will now be sure of what he/she does not know.
+> **Note**: The above discussion is meant to give in a simple idea of how important is programming for executing the theoretical matter taught to students. This does not mean the reader will leave the page having a clear idea of what goes on actually in a quant workshop, but the reader will now be sure of what he/she does not know.
