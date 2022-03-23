@@ -17,12 +17,12 @@ const AboutPage = ({
     <Layout>
       <Helmet>
         <title>About — {site.siteMetadata.title}</title>
-        <meta name="description" content={"About page of Brian. " + site.siteMetadata.description} />
+        <meta name="description" content={"About page of Tanishq. " + site.siteMetadata.description} />
       </Helmet>
       <Container className="section about">
           <div 
             className="banner" 
-            style={{backgroundImage: `url(https://images.unsplash.com/photo-1614224353251-501960ff5c5c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1629&q=80)`}}
+            style={{backgroundImage: `url(https://cdn.britannica.com/66/144866-050-22A7AE47/River-Ouse-York-England-North-Yorkshire.jpg)`}}
           />
         <Row className="header">
           <Col sm={12} md="auto">
