@@ -5,16 +5,16 @@ mockup:
 thumbnail:
 github: 
 date: 2020-07
-name: The ONLY article on ALPHAS you will need!
+name: The only article on quantitative alpha you will need!
 title: An algorithmic assessment of the quant ALPHA.
 category: Alphas
 description: 'Quantitative discussion on ALPHAS'
 tags:
-  - Alphas
+  - Alphas 101
   - Algorithmc Trading
   - Backtesting
 ---
-# 1 Introduction to the conept of ALPHA in quantitative finance
+# 1 Introduction to the concept of ALPHA in quantitative finance
 
 In this post we will dive into the **inner workings of quantitative hedge fund strategies**. Most of the material here are from my own experience of working as a freelance quant on understanding and designing strategies which work on core pricing system principles, unlike the front-end targeting markdown notebook format which is visually impressive, but achieves little except presenting data beautifully.
 
@@ -42,12 +42,9 @@ Earnings, we call this excess return the alpha of the stock. Multi-factor model 
 
 **Figure 1** shows the analysis process of an ALPHA factor under our system framework. First, we will build a base The basic ALPHA model, which will score all stocks in the entire market. For example, we define `ALPHA= 1/close`, where close represents the closing price of the stock the previous day, and the score of the stock is the reciprocal of the closing price of the previous day. This score constitutes a raw alpha value of the model for all stocks. Further we optimize this original ALPHA value through various operation operators to obtain the final position (daily position). The back-testing system performs back-test analysis on factors based on the daily position of each stock.
 
-```mermaid
-flowchart LR
-    id1[Alpha Model]-->id2[Raw Alpha Values]
-    id2[Raw Alpha Values]-->id3[Operations: Decay, Neutralization, Truncation]
-    id3[Operations: Decay, Neutralization, Truncation]-->id4[Positions]
-```
+<img src="./images/alpha1.png" style="zoom:50%;" />
+
+
 
 <figcaption>**ALPHA factor system framework**</figcaption>
 
@@ -63,6 +60,8 @@ We use the long-short method to back-test the factors. Specifically, we will go 
 | -------- | ----- | ----------------------------------- | ------------------------------------- |
 | $100     | Long  | $1                                  | -$1                                   |
 | -$100    | Short | -$1                                 | $1                                    |
+
+
 
 <figcaption>Figure 2: The relationship between stock position, direction and return</figcaption>
 
@@ -273,6 +272,8 @@ The common operation operators of the platform are as follows
 
 A typical strategy writing process is shown in Figure 4. First, a rough idea is generated through mathematical modeling The ALPHA of each stock is processed through the operation operator to obtain the position of each stock at the time of simulation, and the backtest system is used Calculate the daily profit of the strategy and generate various indicators of the strategy. Then optimize and improve the strategy according to various indicators.
 
+<img src="./images/alpha3.png" style="zoom:70%;" />
+
 
 
 <figcaption>**Figure 3: Typical strategy writing process**</figcaption>
@@ -299,11 +300,179 @@ The precautions for the writing process are:
 
 
 
+<img src="./images/alpha4.png" style="zoom:50%;" />
+
+
+
 <figcaption>**Figure 4: Delay 1 process**</figcaption>
 
-A simple 5day-return strategy code is shown in Figure 5:
 
-<figcaption>**Figure 5: A simple 5day-return strategy code**</figcaption>
+
+The alpha 62 strategy code is shown in **Figure 5**:
+
+
+
+```c++
+#include "include/qlSim.h"
+namespace
+{
+class alpha62: public AlphaBase
+{
+    public:
+    explicit alpha62(XMLCONFIG::Element *cfg):
+        AlphaBase(cfg), 
+        vwap(dr.getData<QL_MATRIX<QL_FLOAT>>("adj_vwap")), 
+        open(dr.getData<QL_MATRIX<QL_FLOAT>>("adj_open")),
+        vol(dr.getData<QL_MATRIX<QL_FLOAT>>("volume")),
+        high(dr.getData<QL_MATRIX<QL_FLOAT>>("adj_high")),
+        low(dr.getData<QL_MATRIX<QL_FLOAT>>("adj_low")),
+        Num1(cfg->getAttributeIntDefault("para1",20)),
+	Num2(cfg->getAttributeIntDefault("para2",22)),
+	Num3(cfg->getAttributeIntDefault("para3",9))
+	
+    {
+        adv20.resize (GLOBAL::Dates.size());
+
+        for (int di = 0; di< GLOBAL::Dates.size(); ++di)
+        {
+            adv20[di].resize(GLOBAL::Instruments.size(),nan);
+        }
+    }
+    void generate(int di) override
+    {
+    	vector<float> rank1(GLOBAL::Instruments.size(),nan);
+    	vector<float> rank2(GLOBAL::Instruments.size(),nan);
+    	vector<float> open2_rank(GLOBAL::Instruments.size(),nan);
+    	vector<float> med_rank(GLOBAL::Instruments.size(),nan);
+    	vector<float> high_rank(GLOBAL::Instruments.size(),nan);
+
+       for(int ii = 0; ii < GLOBAL::Instruments.size(); ++ ii)
+        {
+            if((valid[ di ][ ii ]))
+            {
+
+                vector<float> c1(Num1,nan);
+                for (int j = 0; j < Num1; ++ j)
+                {
+                    c1[j] = vol[di - delay - j][ii];
+                }
+                adv20[di-delay][ii] = QL_Oputils::mean(c1);
+            }
+        }
+
+		for(int ii = 0; ii < GLOBAL::Instruments.size(); ++ ii)
+        {
+            if((valid[ di ][ ii ]))
+            {	
+            	vector<float> c3(Num3,0);
+            	vector<float> c4(Num3,nan);
+
+
+				for (int j =0; j<Num3; ++j)
+	    		  {
+	    		  	c3[j] = 0.0;
+					for (int k = 0; k< Num2; ++k)
+					{
+		  				c3[j] += adv20[di-delay-k-j][ii];
+					}
+
+					c4[j] = vwap[di-delay-j][ii];
+	      		  }
+
+	      		rank1[ii] = QL_Oputils::corr(c3,c4);
+	 	 	}
+		}
+
+		QL_Oputils::rank(rank1);
+		
+		 for(int ii = 0; ii < GLOBAL::Instruments.size(); ++ ii)
+        {
+            if((valid[ di ][ ii ]))
+            {
+            	open2_rank[ii] = 2.0 * open[di-delay][ii];
+            	med_rank[ii] = 0.5 * (high[di-delay][ii]+low[di-delay][ii]);
+            	high_rank[ii] = high[di-delay][ii];
+            }
+    	}
+
+		QL_Oputils::rank(open2_rank);		
+		QL_Oputils::rank(med_rank);
+		QL_Oputils::rank(high_rank);
+
+		 for(int ii = 0; ii < GLOBAL::Instruments.size(); ++ ii)
+        {
+            if((valid[ di ][ ii ]))
+            {
+            	if (open2_rank[ii]<(med_rank[ii]+high_rank[ii]))
+            		{rank2[ii]=1;}
+            	else
+            		{rank2[ii]=0;}
+            }
+    	}
+
+    	QL_Oputils::rank(rank2);
+
+
+        for(int ii = 0; ii < GLOBAL::Instruments.size(); ++ ii)
+        {
+            if((valid[ di ][ ii ]))
+            {
+    
+	    
+	    		if (rank1[ii]<rank2[ii])
+	    			{alpha[ii]=-1;}
+	    		else
+	    			{alpha[ii]= 0;}
+	    }
+        }
+        return;
+    }
+    
+    
+    void checkPointSave(boost::archive::binary_oarchive &ar) 
+    {
+        ar & *this;
+    }
+    void checkPointLoad(boost::archive::binary_iarchive &ar)
+    {
+        ar & *this;
+    }
+    std::string version() const
+    {
+        return GLOBALCONST::VERSION;
+    }
+    private:
+        friend class boost::serialization::access;
+        template<typename Archive>
+        void serialize(Archive & ar, const unsigned int/*file_version*/)
+        {
+        }
+	const QL_MATRIX<QL_FLOAT> &vwap;
+	const QL_MATRIX<QL_FLOAT> &open;
+	const QL_MATRIX<QL_FLOAT> &vol;
+	const QL_MATRIX<QL_FLOAT> &high;
+	const QL_MATRIX<QL_FLOAT> &low;
+    vector<vector<float> > adv20;
+        int Num1; 
+	int Num2;
+	int Num3;
+};
+}
+extern "C"
+{
+    AlphaBase * createStrategy(XMLCONFIG::Element *cfg)
+    {
+        AlphaBase * str = new alpha62(cfg);
+        return str;
+    }
+}
+
+
+```
+
+
+
+<figcaption>**Figure 5: Alpha 62 strategy code**</figcaption>
 
 
 
@@ -328,6 +497,10 @@ Number of votes. fitness stands for strategy score. Up days and down days repres
 
 
 
+![](./images/alpha6.png)
+
+
+
 <figcaption>**Figure 6: 5 day-return strategy performance**</figcaption>
 
 
@@ -335,6 +508,12 @@ Number of votes. fitness stands for strategy score. Up days and down days repres
 The relevance of the strategy is evaluated through the command /data/alphaSystem/release/tools/cor pnl/strategy id (strategy id) The pnl file path is omitted), and the 5day-return correlation evaluation result is shown in **Figure 7**. Cor, ISSharp, OS-Sharp and Fitness respectively gave the correlations of the five strategies with the highest and the lowest correlations with strategies.
 
 General, Sharpe and Fitness scores outside the strategy sample. Count and count better are given in the strategy and strategy library respectively The number of strategies at each level of relevance, and the number of strategies that are better than the strategy.
+
+
+
+<img src="./images/alpha7.png" style="zoom: 33%;" />
+
+
 
 <figcaption>**Figure 7: Correlation performance of 5 day-return**</figcaption>
 
@@ -361,3 +540,7 @@ General, Sharpe and Fitness scores outside the strategy sample. Count and count 
 3. Combination of price and volume
 4. Combination of long-term and short-term trends
 5. Seek inspiration from various websites and literature
+
+
+
+**Notes**: The above discussion is meant to give in a simple idea of how important is programming for executing the theoretical matter taught to students. This does not mean the reader will leave the page having a clear idea of what goes on actually in a quant workshop, but the read will now be sure of what he/she does not know.
