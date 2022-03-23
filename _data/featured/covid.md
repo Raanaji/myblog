@@ -22,7 +22,6 @@ tags:
 
 When I started this side project the goal of this project was not to add to the collection of existing COVID-19 dashboards. But, to instead focus on creating an open-source project which encouraged  collaborative to derive some creative and functional ideas. And, that's precisely what this project became; we have contributors from Spain, Poland, India, and various places in the U.S. who came together to create something useful and meaningful. Furthermore, the site has accumulated over 10k visits as shown by web analytics. And, the project is still being maintained and improved upon, thanks to the help of developers.
 
-
 ![covid-2](/assets/covid/covid-dashboard-3-devices.png)
 <figcaption>Mobile-first designed interactive UI</figcaption>
 

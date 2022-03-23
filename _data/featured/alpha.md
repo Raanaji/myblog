@@ -42,11 +42,9 @@ Earnings, we call this excess return the alpha of the stock. Multi-factor model 
 
 **Figure 1** shows the analysis process of an ALPHA factor under our system framework. First, we will build a base The basic ALPHA model, which will score all stocks in the entire market. For example, we define `ALPHA= 1/close`, where close represents the closing price of the stock the previous day, and the score of the stock is the reciprocal of the closing price of the previous day. This score constitutes a raw alpha value of the model for all stocks. Further we optimize this original ALPHA value through various operation operators to obtain the final position (daily position). The back-testing system performs back-test analysis on factors based on the daily position of each stock.
 
-<img src="./images/alpha1.png" style="zoom:50%;" />
+![alpha1](/assets/alpha/alpha1.png)
 
-
-
-<figcaption>**ALPHA factor system framework**</figcaption>
+<figcaption>ALPHA factor system framework</figcaption>
 
 
 
@@ -58,12 +56,10 @@ We use the long-short method to back-test the factors. Specifically, we will go 
 
 | Position | Name  | PnL if the stock price raises by 1% | PnL if the stock price declines by 1% |
 | -------- | ----- | ----------------------------------- | ------------------------------------- |
-| $100     | Long  | $1                                  | -$1                                   |
-| -$100    | Short | -$1                                 | $1                                    |
+| $100                              | Long                              |$1|-$1|
+| -$100                                | Short                               |-$1|$1|
 
-
-
-<figcaption>Figure 2: The relationship between stock position, direction and return</figcaption>
+<figcaption>Relationship between stock position and returns</figcaption>
 
 
 
@@ -272,11 +268,9 @@ The common operation operators of the platform are as follows
 
 A typical strategy writing process is shown in Figure 4. First, a rough idea is generated through mathematical modeling The ALPHA of each stock is processed through the operation operator to obtain the position of each stock at the time of simulation, and the backtest system is used Calculate the daily profit of the strategy and generate various indicators of the strategy. Then optimize and improve the strategy according to various indicators.
 
-<img src="./images/alpha3.png" style="zoom:70%;" />
+![alpha3](/assets/alpha/alpha3.png)
 
-
-
-<figcaption>**Figure 3: Typical strategy writing process**</figcaption>
+<figcaption>Figure 3: Typical strategy writing process</figcaption>
 
 
 
@@ -300,11 +294,11 @@ The precautions for the writing process are:
 
 
 
-<img src="./images/alpha4.png" style="zoom:50%;" />
+<img src="/assets/alpha/alpha4.png" style="zoom:50%;" />
 
 
 
-<figcaption>**Figure 4: Delay 1 process**</figcaption>
+<figcaption>Figure 4: Delay 1 process</figcaption>
 
 
 
@@ -472,7 +466,7 @@ extern "C"
 
 
 
-<figcaption>**Figure 5: Alpha 62 strategy code**</figcaption>
+<figcaption>Figure 5: Alpha 62 strategy code</figcaption>
 
 
 
@@ -497,11 +491,11 @@ Number of votes. fitness stands for strategy score. Up days and down days repres
 
 
 
-![](./images/alpha6.png)
+![](assets/alpha/alpha6.png)
 
 
 
-<figcaption>**Figure 6: 5 day-return strategy performance**</figcaption>
+<figcaption>Figure 6: 5 day-return strategy performance</figcaption>
 
 
 
@@ -511,11 +505,11 @@ General, Sharpe and Fitness scores outside the strategy sample. Count and count 
 
 
 
-<img src="./images/alpha7.png" style="zoom: 33%;" />
+<img src="/assets/alpha/alpha7.png" style="zoom: 33%;" />
 
 
 
-<figcaption>**Figure 7: Correlation performance of 5 day-return**</figcaption>
+<figcaption>Figure 7: Correlation performance of 5 day-return</figcaption>
 
 
 
