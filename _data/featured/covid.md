@@ -8,7 +8,7 @@ demo: https://ncov-dashboard.herokuapp.com/
 date: 2020-08-01
 name: COVID-19 Dashboard
 title: A powerful yet intuitive COVID-19 analytics dashboard, attracting thousands of users.
-category: Web app
+category: Quantitative Finance
 description: 'Powerful Django web application, tracking real-time coronavirus cases, with an intuitive and clean UI/UX.'
 tags:
   - Python

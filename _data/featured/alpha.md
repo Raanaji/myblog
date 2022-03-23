@@ -50,7 +50,7 @@ Earnings, we call this excess return the alpha of the stock. Multi-factor model 
 
 ## 1.4 The long-short backtesting system
 
-We use the long-short method to back-test the factors. Specifically, we will go through the operation process The absolute value of ALPHA is considered to be the position of the stock, and the sign represents the direction of long and short stocks. **Figure 2** gives the relationship between the position and direction of the stocks in the stock portfolio and their corresponding returns. By calculating the daily return of each stock we get the daily return of the factor stock portfolio, this time-based return sequence will be used to calculate the model ALPHA factor The effectiveness is evaluated.
+We use the long-short method to back-test the factors. Specifically, we will go through the operation process The absolute value of ALPHA is considered to be the position of the stock, and the sign represents the direction of long and short stocks. below table gives the relationship between the position and direction of the stocks in the stock portfolio and their corresponding returns. By calculating the daily return of each stock we get the daily return of the factor stock portfolio, this time-based return sequence will be used to calculate the model ALPHA factor The effectiveness is evaluated.
 
 
 
@@ -58,8 +58,6 @@ We use the long-short method to back-test the factors. Specifically, we will go 
 | -------- | ----- | ----------------------------------- | ------------------------------------- |
 | $100                              | Long                              |$1|-$1|
 | -$100                                | Short                               |-$1|$1|
-
-<figcaption>Relationship between stock position and returns</figcaption>
 
 
 
@@ -537,4 +535,4 @@ General, Sharpe and Fitness scores outside the strategy sample. Count and count 
 
 
 
-**Notes**: The above discussion is meant to give in a simple idea of how important is programming for executing the theoretical matter taught to students. This does not mean the reader will leave the page having a clear idea of what goes on actually in a quant workshop, but the read will now be sure of what he/she does not know.
+> **Note**: The above discussion is meant to give in a simple idea of how important is programming for executing the theoretical matter taught to students. This does not mean the reader will leave the page having a clear idea of what goes on actually in a quant workshop, but the read will now be sure of what he/she does not know.
