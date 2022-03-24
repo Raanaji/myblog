@@ -3,8 +3,6 @@ template: BlogPost
 path: /inception
 mockup: 
 thumbnail:'https://static0.srcdn.com/wordpress/wp-content/uploads/2018/08/Michael-Caine-Inception.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5'
-github: 
-demo: 
 date: 2021-12-06
 name: Inception ending explained properly
 title: Cobb woke up in the end from his dreams, explained why..
@@ -111,4 +109,4 @@ In the final scene after Cobb wakes up, he sees Saito making the call, passing t
 
 However, this goes against the tenets of limbo as explained in the above sections, and thus we can safely conclude the following.
 
-**Cobb successfully convinced Saito that he is in a limbo, they both woke up, Saito makes the call, Cobb got past the immigration without trouble, he met his father in-law and his children, happy ending!**
+> **Cobb successfully convinced Saito that he is in a limbo, they both woke up, Saito makes the call, Cobb got past the immigration without trouble, he met his father in-law and his children, happy ending!**
