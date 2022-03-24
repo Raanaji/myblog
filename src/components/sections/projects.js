@@ -23,7 +23,6 @@ const Projects = () => {
             frontmatter {
               name
               github
-              demo
               tags
             }
           }
@@ -46,9 +45,6 @@ const Projects = () => {
                 <Col className="text-right">
                   { node.frontmatter.github && 
                   <Card.Link href={node.frontmatter.github}><FiGithub/></Card.Link>
-                  }
-                  { node.frontmatter.demo && 
-                    <Card.Link href={node.frontmatter.demo}><BiLinkExternal/></Card.Link>
                   }
                 </Col>
               </Row>
