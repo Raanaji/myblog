@@ -4,7 +4,7 @@ path: /inception
 mockup: 
 thumbnail:
 date: 2021-09-09
-name: A logical analysis of Inception to conclude its ending
+name: Inception movie ending - EXPLAINED!
 category: Psychology
 description: 'We use Inception movie script to single out quotes, construct premise on their basis, and make a strong argument.'
 tags:
@@ -76,7 +76,7 @@ Let us break down Arthur's statements into simple bread crumbs for us to dissect
 
 > Unconstructed dream space 
 
-Simply put a dream space (the dream) which is unconstructed, meaning there is no thought or planning given to constructing the space. If you recall, at the beginning of this discussion we pointed out that a typical dream works on principle of creation and perception, and for an extraction the principle works in a similar manner, expect the creation is done by the **architect** who plans, models, designs, and executes the extraction procedure.
+Simply put a dream space (the dream) which is unconstructed, meaning there is no thought or planning given to constructing the space. If you recall, at the beginning of this discussion we pointed out that a typical dream works on principle of creation and perception, and for an extraction the principle works in a similar manner, except the creation is done by the **architect** who plans, models, designs, and executes the extraction procedure.
 
 In a limbo however, the dream space has no proper construction as it lacks thought and direction as neither the architect, nor the subject has any idea whatsoever of what is going on.
 

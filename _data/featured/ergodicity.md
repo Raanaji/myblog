@@ -15,19 +15,19 @@ tags:
 
 # Musings on asymmetry and how it affects individual risk
 
-This post explores fundamental questions of how to take decisions or make bets. It is suggested to use Jupiter notebook for running the presented code. 
+This post explores fundamental questions of how we can make decisions more methodically or make bets which do not cause us ruin. It is suggested to use Jupiter notebook for running the presented code. 
 
-A special attention is given to situations
+The following situations are considered central to our post
 
-- where the decision making is taking place under uncertainty, 
-- where we are faced with asymmetry in human affairs,
-- where informations is not shared equally in transactions.
+- Uncertain situation and constant uncertainty affecting decision making.
+- Asymmetric and non-linear eventualities affecting us as individuals.
+- No transparency in information distribution, thus a skewness of information (which can also be termed alternative as mass distribution of noise outweighs the distribution of information).
 
-This leads to the different concepts of rationality and a deeper reflection on different types of risk.
+Given the above three situations, concepts such as rationality, morality, and risk taking seem to coincide when we reflect upon them.
 
-The lecture draws heavily on the ideas developed by Nassim Nicholas  Taleb in his books and the underyling mathematics. He draws attention to many counterintuitive insights that are important for good strategy and leadership.
+This post draws heavy inspiration from Nassim Taleb, especially his book Antifragility and his technical book Statistical Consequences of Tail Risks, which includes plenty of mathematics. Taleb has successfully unearthed insights for leadership which at first glance may seem counterintuitive and even counterproductive to any given cause.
 
-Topics covered include:
+We discuss the following topics:
 
 - The minority rule
 - Galam models
@@ -44,7 +44,7 @@ Topics covered include:
 - [Insurance makes wealth grow faster](https://arxiv.org/abs/1507.04655) - *Peters & Adamou*
 - [Sociophysics: A review of Galam models](https://arxiv.org/pdf/0803.1800.pdf) - *Galam*
 
-# Starting point: The real world and making decisions under uncertainty
+# Real world decision making - life under uncertainty
 
 ## Connected elements of decision making
 
@@ -153,7 +153,7 @@ Characteristic of complex systems:
 
 An intransigent minority at a small level (e.g. 3% of the population) can  get the entire population to submit to their preference if the majority  is flexible.  The dominance of the minority creates the illusion for a naive observer  who looks only at the standard average that choices and preferences are  based on those of the majority.
 
-## Instances of the dominance of the stubborn minority
+## The Stubborn Minority
 
 - GMOs do not stand a chance despite all the lobbying.
 
