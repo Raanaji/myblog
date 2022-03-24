@@ -8,10 +8,10 @@ name: A logical analysis of Inception to conclude its ending
 category: Psychology
 description: 'We use Inception movie script to single out quotes, construct premise on their basis, and make a strong argument.'
 tags:
-  - universa 
-  - left-tail
-  - options
-  - market crash
+  - Dreams 
+  - Subconscious
+  - Bicameralism
+  - Games
 ---
 
 We will be using the Inception movie [screenplay](https://www.nolanfans.com/library/pdf/inception-screenplay.pdf) to single out different statements made by different characters and use them to back our conclusion of the movie ending.
