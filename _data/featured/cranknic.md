@@ -4,7 +4,8 @@ path: /prac5
 mockup: 
 thumbnail:
 date: 2019-03-25
-name: Computing the price of a  European Call and Put Option by Implicit and Crank-Nicholson Method
+name: Computing price of a  European Option using Crank-Nicholson Method
+category: Quantitative Finance
 description: 'Using MATLAB for exotic options valuation.'
 tags:
   - Matlab 
