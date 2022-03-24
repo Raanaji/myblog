@@ -2,17 +2,16 @@
 template: BlogPost
 path: /inception
 mockup: 
-thumbnail:'https://static0.srcdn.com/wordpress/wp-content/uploads/2018/08/Michael-Caine-Inception.jpg?q=50&fit=crop&w=740&h=370&dpr=1.5'
-date: 2021-12-06
-name: Inception ending explained properly
-title: Cobb woke up in the end from his dreams, explained why..
+thumbnail:
+date: 2021-09-09
+name: A logical analysis of Inception to conclude its ending
 category: Psychology
-description: 'Using the information various characters have given us in inception, we will logically analyze the movie ending.'
+description: 'We use Inception movie script to single out quotes, construct premise on their basis, and make a strong argument.'
 tags:
-  - Movies
-  - Inception
-  - Consciousness
-  - Dreams
+  - universa 
+  - left-tail
+  - options
+  - market crash
 ---
 
 We will be using the Inception movie [screenplay](https://www.nolanfans.com/library/pdf/inception-screenplay.pdf) to single out different statements made by different characters and use them to back our conclusion of the movie ending.
