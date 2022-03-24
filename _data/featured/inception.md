@@ -26,11 +26,11 @@ We will be using the Inception movie [screenplay](https://www.nolanfans.com/libr
 The above quote gives a very good idea into the concept of inception. The subject (whose subconscious has to be invaded) must feel as if the dream has been constructed by the subject's own mind, when in reality the subject only perceives the dream while the construction is done by the **architect** . An architect is the one who designs and structures the layout of the dream, just like in a real world. Though the planning takes place by designing the layout in the real world using models to ideate on the matter more effectively, the information is absorbed by the architect as the models improve and eventually reach their final phase. This is when the architect feels that the models have blossomed fully and he is now capable of **fooling** the subject's subconscious into believing that the subject's own subconscious is the one creating the dream and perceiving it.
 
 > It **creates and perceives a world simultaneously**. So well that you don't feel your brain doing the creating. That's why we can short- circuit the process... - Cobb
->
+
 > How? - Ariadne
->
+
 > By taking over the creating part. - Cobb
->
+
 > This is where you come in. You build the world of the dream. We take the subject into that dream, and let him fill it with his subconscious. - Cobb
 
 ![circle](/assets/inception/circle.png)
@@ -73,7 +73,7 @@ The next part by Arthur, and this is critical to our argument, describes what a 
 
 ### The Limbo
 
-> ## Unconstructed dream space. Raw, infinite subconscious. Nothing there but what was built by anyone on the team who's been trapped there before. - Arthur
+> Unconstructed dream space. Raw, infinite subconscious. Nothing there but what was built by anyone on the team who's been trapped there before. - Arthur
 
 Let us break down Arthur's statements into simple bread crumbs for us to dissect and digest what it means. 
 
@@ -83,13 +83,13 @@ Simply put a dream space (the dream) which is unconstructed, meaning there is no
 
 In a limbo however, the dream space has no proper construction as it lacks thought and direction as neither the architect, nor the subject has any idea whatsoever of what is going on.
 
-> ## Raw, infinite subconscious. Nothing here but **what was built by anyone on the team who's been trapped there before**
+> Raw, infinite subconscious. Nothing here but **what was built by anyone on the team who's been trapped there before**
 
 **This is the most important line which solidifies our argument!**
 
 Arthur explicitly says that limbo exists only of something which **was** built by someone who **has been here before**. We know that Cobb is the only one in the team who has been to level 3 with Mal. Also, after Mal's demise Cobb has never tried to **CONSTRUCT** anything new. 
 
-> #### Thus, limbo in the movie consists purely of crumbling architecture created by Cobb during his experimentation with Mal. As a result, it is impossible to experience anything NEW as that would go against the definition of limbo, as described by Arthur.
+> Thus, limbo in the movie consists purely of crumbling architecture created by Cobb during his experimentation with Mal. As a result, it is impossible to experience anything NEW as that would go against the definition of limbo, as described by Arthur.
 
 ## The Argument
 
@@ -111,4 +111,4 @@ In the final scene after Cobb wakes up, he sees Saito making the call, passing t
 
 However, this goes against the tenets of limbo as explained in the above sections, and thus we can safely conclude the following.
 
-> # Cobb successfully convinced Saito that he is in a limbo, they both woke up, Saito makes the call, Cobb got past the immigration without trouble, he met his father in-law and his children, happy ending!
+**Cobb successfully convinced Saito that he is in a limbo, they both woke up, Saito makes the call, Cobb got past the immigration without trouble, he met his father in-law and his children, happy ending!**
