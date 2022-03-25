@@ -5,6 +5,8 @@ mockup:
 thumbnail:
 date: 2020-11-11
 name: Crucial life lessons from the movie Revolver
+title: Insightful lessons from the movie Revolver with immense psychological depth
+category: Psychology
 description: 'In 2005, Guy Ritchie made an extraordinary movie that is apparently not recognized for what it is.'
 tags:
   - chess 

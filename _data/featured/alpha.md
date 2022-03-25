@@ -7,7 +7,7 @@ github:
 date: 2020-07
 name: The only article on quantitative alpha you will need!
 title: An algorithmic assessment of the quant ALPHA.
-category: Alphas
+category: Quantitative Finance
 description: 'Quantitative discussion on ALPHAS'
 tags:
   - Alphas 101

@@ -5,6 +5,8 @@ mockup:
 thumbnail:
 date: 2020-01-25
 name: A simple introduction to ergodicity
+title: Understanding ergodicity and ergodic systems to better tackle uncertainty
+category: Economics
 description: 'We will be critically looking at the concept of ergodicity'
 tags:
   - Quantitative Finance 
