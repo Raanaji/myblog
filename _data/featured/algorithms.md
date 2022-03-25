@@ -8,7 +8,7 @@ name: Introduction to basic algorithms
 title: A simple introduction to algorithms in quantitative finance
 category: Quantitative Finance
 description: 'We take a practical look at algos in trading.'
-Tags: Algorithmic Trading
+Tags: s
   - Algos 
   - Data Structures
   - Trading
