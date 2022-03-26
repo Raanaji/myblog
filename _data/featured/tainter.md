@@ -146,4 +146,14 @@ MR = α + βF + γM + e
 
 where α is the constant, F is the food per capita, M being medical factor, e is the error term, β and γ are  coefficients. This is just a simple model, but can be transformed easily into a proper econometric analysis using python or R markdown notebooks, or Mathematica as tools.
 
-This will form an interesting aspect to investigate and will be kept of a later post.
+This will form an interesting aspect to investigate and will be kept for a later post.
+
+The paper concludes with the following 
+
+> at least two directions for future research on enhancing organizational resilience. First, while it is often fairly obvious when an organization is confronted by novelty, **quantity-induced crises are harder to recognize**. **Until the tipping point is reached, things look fine**. 
+
+> our analysis suggests that quantity-induced crises may have an **identifiable** “temporal signature”: a rising level of unresolved interruptions and an initial improvement in performance, followed by a **decline**.
+
+> our framework suggests that future research in organization studies can profit from a focus on understanding how groups and individuals **maintain** both skill sets along with the ability to determine which is most appropriate in a given situation.
+
+An apt answer to the above conclusion could be [this](https://medium.com/poka-techblog/code-stress-and-entropy-920c8880744d). Where small entropic stressors are applied to Microsystems within the overall system, thus making it resilient in the long run to collapses. However, this is easier said than done. 
