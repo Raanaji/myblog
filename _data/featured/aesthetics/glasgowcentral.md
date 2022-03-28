@@ -4,7 +4,7 @@ path: /glasgowcentral
 mockup: 
 thumbnail:
 date: 2019-03-20
-name: The aesthetics of Glasgow city centre
+name: The aesthetics of Glasgow city centre - Initial Impressions
 title: Glasgow city centre - An impressive sprawling edifice of engineering
 category: History & Architecture
 description: 'A peek into the architectural subtlety of the Glasgow city centre.'
@@ -48,7 +48,7 @@ A very interesting thing to notice is how the typical Victorian architecture for
 
 The link [here](https://www.dunnedwards.com/colors/specs/posts/victorian-architecture-past-and-present) provides a good idea for those who are interested in the specifics of the residential designs. For us however, the main subject of interest are the unique experiences induced by Glaswegian architecture.
 
-## A psychological base for Victorian architectural Habits
+## A psychogeographical base for Victorian architectural Habits
 
 For readers interested in an extensive treatment of the topic, please refer to this [PhD thesis](https://scholarworks.umass.edu/cgi/viewcontent.cgi?article=2127&context=dissertations_2) by a student at the University of Massachusetts at Amherst.
 
@@ -66,4 +66,14 @@ For readers who are still very intent on delving into the psychological nuances 
 
 I cannot see anyone busy sipping pena coladas and cancelling people, can you? ([Source](https://www.theguardian.com/cities/gallery/2017/jun/02/urchins-alleyways-glimpse-19th-century-glasgow-industry-in-pictures))
 
-If one only looks at the utilitarian nature of the architecture and the hectic working class lives of the people in the Victorian era, 
+If one only looks at the utilitarian nature of the architecture and the hectic working class lives of the people in the Victorian era, it becomes a child's play to unravel the mystery behind the mystiques of the Glaswegian alleys. 
+
+Initially tho Buchanan street was built as a residential area in the late 1770s, which was transformed into a shopping arcade with the development of the Argyll Shopping Centre in the late 1800s. 
+
+## Exploring The City Centre 
+
+One truly needs to go to Glasgow (probably first landing at Edinburgh and then hopping on a ScotRail from Edinburgh Waverley). The intense impact of the Glaswegian architecture is when the commuter alights at the Glasgow Queen Street station, the aesthetics of the surrounding are the most impactful during evening times. A fire torch decorating one of the most famous hotel / pub on Buchanan Street catches ones attention instantly with the number of people standing in que, waiting for their turn at an exquisite experience they would like to relish for the night. Little do they know that the same streets used to be nothing more than a mere "street" for an average Glaswegian a hundred years ago.
+
+It is a thought to wonder doubt that how come these streets bustling with the working class men have now become a spot for people to "hang out", as this activity has been a daily occurrence since decades. 
+
+That will be all for this post, in next post I intend to discuss some observations I had during my usual walks from Renfrew street to the Charing Cross station. Thanks for reading! Cheerio!

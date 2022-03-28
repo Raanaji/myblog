@@ -15,6 +15,10 @@ tags:
   - Economics
 ---
 
+[TOC]
+
+
+
 # Musings on asymmetry and how it affects individual risk
 
 This post explores fundamental questions of how we can make decisions more methodically or make bets which do not cause us ruin. It is suggested to use Jupiter notebook for running the presented code. 

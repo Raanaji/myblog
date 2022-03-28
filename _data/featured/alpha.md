@@ -14,6 +14,10 @@ tags:
   - Algorithmc Trading
   - Backtesting
 ---
+[TOC]
+
+
+
 # 1 Introduction to the concept of ALPHA in quantitative finance
 
 In this post we will dive into the **inner workings of quantitative hedge fund strategies**. Most of the material here are from my own experience of working as a freelance quant on understanding and designing strategies which work on core pricing system principles, unlike the front-end targeting markdown notebook format which is visually impressive, but achieves little except presenting data beautifully.
