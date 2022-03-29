@@ -4,14 +4,14 @@ path: /neural
 mockup: 
 thumbnail:
 date: 2019-12-01
-name: Machine Learning Series - Implementing RidgeCV and LassoCV
-title: In this post of Machine Learning Series we will implement RidgeCV and LassoCV on selected data sets 
+name: Machine Learning Series - Implementing neural network in PyTorch
+title: In this post of Machine Learning Series we will implement neural network with one hidden layer consisting of 10 neurons
 category: Machine Learning
-description: 'Using the sklearn library in python we will implement some machine learning algorithms to fit data sets.'
+description: 'Using the PyTorch library in python we will implement some machine learning algorithms consisting of single layer neural network, each having 10 neurons.'
 tags:
   - Machine Learning 
-  - RidgeCV
-  - LassoCV
+  - Neural Network
+  - Neurons
   - Data Engineering
 ---
 

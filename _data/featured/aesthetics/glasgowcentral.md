@@ -3,7 +3,7 @@ template: BlogPost
 path: /glasgowcentral
 mockup: 
 thumbnail:
-date: 2019-03-20
+date: 2019-05-20
 name: The aesthetics of Glasgow city centre - Initial Impressions
 title: Glasgow city centre - An impressive sprawling edifice of engineering
 category: History & Architecture
