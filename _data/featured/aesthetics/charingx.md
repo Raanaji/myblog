@@ -58,4 +58,8 @@ Pretty surreal isn't it? The lamps add an extra layer of surrealism atop of the 
 
 ![drifting](/assets/aesthetics/drifting.png)
 
-Start here https://gsashowcase.net/yee-ping-gracelyn-choo/
+The path taken is usually from Renfrew Street to Stewart House, which is a fairly straight path. Most of my wanderings are around the said area on either side of the M8. The areas under the reachable circle (where I have flaneured previously) are Kelvingrove, University of Glasgow, Anderston, Glasgow School of Arts, Bath Street. The three places I loved having a meal at (while on the way) were Gregs (yes, the same old bacon and eggs with coffe), New Golden Bell, and Mother India's Cafe. 
+
+Occasionally it is recommended to take a ride from Charing Cross to Queen Street, just to enjoy the bizarre lush of profound aesthetic overdose while looking at the majestic architectural wonders surrounding the city centre. The effect is multiplied by several factors during the winter period.
+
+https://gsashowcase.net/yee-ping-gracelyn-choo/#chapter-2-spatial-fragments-the-everyday-flaneur
