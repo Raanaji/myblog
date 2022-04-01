@@ -1,6 +1,6 @@
 ---
 template: BlogPost
-path: /spot
+path: /tradingsys
 mockup: 
 thumbnail:
 date: 2021-09-21
