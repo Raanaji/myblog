@@ -94,6 +94,7 @@ This service should register a ServiceListener on the following: BondPositionSer
 Please look at the tree structure - this is how all files will be placed inside the project folder
 
 ##File Structure
+```
 .
 ├── AlgoExecution.hpp
 ├── AlgoStream.hpp
@@ -181,6 +182,9 @@ Please look at the tree structure - this is how all files will be placed inside 
 ├── tradingsystem.mk
 ├── tradingsystem.project
 └── tradingsystem.txt
+```
+
+
 
 ```c++
 #AlgoExecution.hpp
